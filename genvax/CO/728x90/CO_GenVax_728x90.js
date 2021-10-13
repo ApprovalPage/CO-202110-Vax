@@ -780,7 +780,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD 3
 	this.instance_5 = new lib.HEAD3();
-	this.instance_5.setTransform(318,53.75,1,1,0,0,0,112,35.6);
+	this.instance_5.setTransform(318,55.75,1,1,0,0,0,112,35.6);
 	this.instance_5.alpha = 0.1211;
 	this.instance_5._off = true;
 
@@ -796,7 +796,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_7 = new lib.CTA();
-	this.instance_7.setTransform(487.95,45,1,1,0,0,0,-1,0);
+	this.instance_7.setTransform(487.95,47,1,1,0,0,0,-1,0);
 	this.instance_7.alpha = 0.1211;
 	this.instance_7._off = true;
 
@@ -828,7 +828,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_GenVax_728x90_atlas_1.jpg?1634154101182", id:"CO_GenVax_728x90_atlas_1"}
+		{src:"images/CO_GenVax_728x90_atlas_1.jpg?1634154981422", id:"CO_GenVax_728x90_atlas_1"}
 	],
 	preloads: []
 };
