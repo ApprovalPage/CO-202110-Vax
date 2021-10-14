@@ -627,7 +627,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0.1211;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(104).to({_off:false},0).to({alpha:1},5).to({_off:true},155).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(104).to({_off:false},0).to({alpha:1},5).wait(156));
 
 	// CTA
 	this.instance_4 = new lib.CTA();
@@ -667,7 +667,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_GenVax_320x50_atlas_1.jpg?1634163058199", id:"JCC_GenVax_320x50_atlas_1"}
+		{src:"images/JCC_GenVax_320x50_atlas_1.jpg?1634248538293", id:"JCC_GenVax_320x50_atlas_1"}
 	],
 	preloads: []
 };
