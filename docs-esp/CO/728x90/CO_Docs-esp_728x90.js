@@ -720,7 +720,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,387];
+	this.actionFrames = [0,403];
 	// timeline functions:
 	this.frame_0 = function() {
 		//if(!this.alreadyyExecuted){
@@ -732,7 +732,7 @@ if (reversed == null) { reversed = false; }
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_387 = function() {
+	this.frame_403 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -745,20 +745,20 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(387).call(this.frame_387).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(403).call(this.frame_403).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("Eg4ygG8MBxlAAAIAAN5MhxlAAAg");
 	this.shape.setTransform(364,45);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(388));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(404));
 
 	// HEAD 1a
 	this.instance = new lib.HEAD1a();
 	this.instance.setTransform(318,41.6,1,1,0,0,0,112,35.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},118).wait(270));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},134).wait(270));
 
 	// HEAD 1b
 	this.instance_1 = new lib.HEAD1b();
@@ -766,7 +766,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0.1211;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(51).to({_off:false},0).to({alpha:1},5).to({_off:true},62).wait(270));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(51).to({_off:false},0).to({alpha:1},5).to({_off:true},78).wait(270));
 
 	// HEAD 2a
 	this.instance_2 = new lib.HEAD2a();
@@ -774,7 +774,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0.1211;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(121).to({_off:false},0).to({alpha:1},5).to({_off:true},152).wait(110));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(137).to({_off:false},0).to({alpha:1},5).to({_off:true},152).wait(110));
 
 	// HEAD 3
 	this.instance_3 = new lib.HEAD3();
@@ -782,7 +782,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0.1211;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(281).to({_off:false},0).to({alpha:1},5).wait(102));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(297).to({_off:false},0).to({alpha:1},5).wait(102));
 
 	// LOGO
 	this.instance_4 = new lib.covwhiteRGBai("synched",0);
@@ -790,7 +790,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.alpha = 0.1211;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(281).to({_off:false},0).to({alpha:1},5).wait(102));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(297).to({_off:false},0).to({alpha:1},5).wait(102));
 
 	// CTA
 	this.instance_5 = new lib.CTA();
@@ -798,20 +798,20 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.alpha = 0.1211;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(338).to({_off:false},0).to({alpha:1},5).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(354).to({_off:false},0).to({alpha:1},5).wait(45));
 
 	// type bkgd
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FF8200").s().p("Egq6AHCIAAuDMBV1AAAIAAODg");
 	this.shape_1.setTransform(452.775,45);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(388));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(404));
 
 	// PIC
 	this.instance_6 = new lib.PIC();
 	this.instance_6.setTransform(88.95,52.7,0.6,0.6,0,0,0,149.9,88.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(388));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(404));
 
 	this._renderFirstFrame();
 
@@ -826,7 +826,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Docs_esp_728x90_atlas_1.jpg?1634765965667", id:"CO_Docs_esp_728x90_atlas_1"}
+		{src:"images/CO_Docs_esp_728x90_atlas_1.jpg?1634848918824", id:"CO_Docs_esp_728x90_atlas_1"}
 	],
 	preloads: []
 };
